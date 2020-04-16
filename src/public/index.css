@@ -1,0 +1,96 @@
+body {
+
+    font: 12px/1.5 "PingFang SC", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 0;
+    min-width: 320px;
+    max-width: 750px;
+    height: 99%;
+    width: 100%;
+    background: #ffffff  no-repeat fixed center;
+
+    /*height: 100%;width: 100%;*/
+    /*background-color: #f8f8f8;*/
+    /*background-size:cover;*/
+}
+div{
+    border-radius:3px 4px 5px 6px
+}
+#frame{
+    background-color:#EEEEEE;
+    margin: 0 auto;
+    /*margin-top: 1px;*/
+    margin-bottom: 1px;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+#main
+{
+    background-color: #EEEEEE;
+    padding: 0;
+    padding-top: 40px;
+    text-align:center;
+    height: 20%;
+    /*height:800px;*/
+    color:#8AC007;
+    font-size: 50px;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-tap-highlight-color: transparent;
+}
+#extrance{
+    padding-top: 40px;
+    height: 20%;
+    text-align: center;
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    height: 70px;
+    margin: 0 auto;
+    width: 80%;
+    position: relative;
+    border-radius:10px 10px 10px 10px;
+    cursor:pointer;
+}
+#loginform,#registerform{
+    margin: 0 auto;
+    text-align:center;
+    color:#333333;
+    font-size: 55px
+}
+#loginform input,#registerform input{
+    width: 460px;
+    text-align: left;
+    border: 0;
+    background-color: transparent;
+    margin-left: 50px;
+    font-size: 55px;
+    color:#757575;
+}
+#loginform label,#registerform label{
+    width: 150px;
+    text-align: left;
+    border: 0;
+    background-color: transparent;
+    margin-left: 50px;
+    font-size: 55px;
+}
+
+#loginform a,#registerform a{
+    text-align: left;
+    margin-left: 10px;
+    color:#0060a0;
+    font-size: 24px;
+    cursor:pointer;
+}
